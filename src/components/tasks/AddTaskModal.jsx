@@ -20,7 +20,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
   };
 
   return (
-    <Modal isOpen={isOpen} setIsOpen={setIsOpen} title="Programming">
+    <Modal isOpen={isOpen} setIsOpen={setIsOpen} title="Add Task">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col mb-5">
           <label htmlFor="title" className="mb-2">
